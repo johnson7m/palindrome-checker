@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  button {
+    display: inline-block;
+    width: 5rem;
+    height: 3vh;
+    margin-top: 1rem;
+  }
+  
+  #button {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .container {
+    margin-top: 25vh;
+  }
+  
+  input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+  }
+  
+  
+  .left {
+    top: 25vh;
+    left: 20vw;
+  }
+  
+  .right {
+    top: 25vh;
+    right: 20vw;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+  .left {
+    left: 0;
+  }
+  .right {
+    right: 0;
+  }
+  
+  label {
+    margin-top: 0px;
+  }
+  
+  body {
+    border: 1px solid black;
+  }
+  }
+  
+  @media only screen and (max-width:400px) {
+    .container {
+      margin-top:3rem;
+    }
+  }
